@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Assignment 7 </title>
+</head>
+
+<body>
+    <script>
+        //adding can be done by using unsift or by using push or splice
+
+        //first example is for push:-
+        var techonology_Array = ["c", "javascript", "Angualr", "html"];
+
+        //adding new element in array by using push
+        techonology_Array.push("Typescript");
+        techonology_Array.push("AmaZon Web Services");
+        techonology_Array.push("SAP");
+
+        //here push adds on last
+        console.log(techonology_Array);
+
+        //you can also add those by using unshift
+
+        //unshift adds the elemetn first 
+
+        var techonology_Array_Unshift = ["c", "javascript", "Angualr", "html"];
+
+        //adding new element in array by using unshift
+        techonology_Array_Unshift.unshift("Typescript");
+        techonology_Array_Unshift.unshift("AmaZon Web Services");
+        techonology_Array_Unshift.unshift("SAP");
+
+        //here unshift adds on last
+        console.log(techonology_Array_Unshift);
+
+
+        //you can also add the same using splice
+
+        var techonology_Array_Splice = ["c", "javascript", "Angualr", "html"];
+
+        //adding new element in array by using unshift
+        techonology_Array_Splice.splice(1, 0, "typescript");
+        techonology_Array_Splice.splice(3, 0, "Amazon Web Services");
+        techonology_Array_Splice.splice(5, 0, "SAP");
+
+        //here unshift adds on last
+        console.log(techonology_Array_Splice);
+    </script>
+
+</body>
+
+</html>
